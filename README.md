@@ -1,2 +1,2 @@
 # BudgeWiser
-Cost estimation of Energy projects
+Cost estimation of energy projects
