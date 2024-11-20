@@ -1,0 +1,583 @@
+[
+    {
+        "Category":"Agitators and mixers",
+        "Equipment":"Propeller",
+        "Unit":"driver power, kW",
+        "S_lower":5.0,
+        "S_upper":75.0,
+        "a":17000,
+        "b":1130,
+        "n":1.05
+    },
+    {
+        "Category":"Agitators and mixers",
+        "Equipment":"Spiral ribbon mixer",
+        "Unit":"driver power, kW",
+        "S_lower":5.0,
+        "S_upper":35.0,
+        "a":30800,
+        "b":125,
+        "n":2.0
+    },
+    {
+        "Category":"Agitators and mixers",
+        "Equipment":"Static mixer",
+        "Unit":"liters/s",
+        "S_lower":1.0,
+        "S_upper":50.0,
+        "a":570,
+        "b":1170,
+        "n":0.4
+    },
+    {
+        "Category":"Boilers",
+        "Equipment":"Packaged, 15 to 40 bar",
+        "Unit":"kg/h steam",
+        "S_lower":5000.0,
+        "S_upper":200000.0,
+        "a":124000,
+        "b":10,
+        "n":1.0
+    },
+    {
+        "Category":"Boilers",
+        "Equipment":"Field erected, 10 to 70 bar",
+        "Unit":"kg/h steam",
+        "S_lower":20000.0,
+        "S_upper":800000.0,
+        "a":130000,
+        "b":53,
+        "n":0.9
+    },
+    {
+        "Category":"Centrifuges",
+        "Equipment":"High-speed disk",
+        "Unit":"diameter, m",
+        "S_lower":0.26,
+        "S_upper":0.49,
+        "a":57000,
+        "b":480000,
+        "n":0.7
+    },
+    {
+        "Category":"Centrifuges",
+        "Equipment":"Atmospheric suspended basket",
+        "Unit":"power, kW",
+        "S_lower":2.0,
+        "S_upper":20.0,
+        "a":65000,
+        "b":750,
+        "n":1.5
+    },
+    {
+        "Category":"Compressors",
+        "Equipment":"Blower",
+        "Unit":"m3/h",
+        "S_lower":200.0,
+        "S_upper":5000.0,
+        "a":4450,
+        "b":57,
+        "n":0.8
+    },
+    {
+        "Category":"Compressors",
+        "Equipment":"Centrifugal",
+        "Unit":"driver power, kW",
+        "S_lower":75.0,
+        "S_upper":30000.0,
+        "a":580000,
+        "b":20000,
+        "n":0.6
+    },
+    {
+        "Category":"Compressors",
+        "Equipment":"Reciprocating",
+        "Unit":"driver power, kW",
+        "S_lower":93.0,
+        "S_upper":16800.0,
+        "a":260000,
+        "b":2700,
+        "n":0.75
+    },
+    {
+        "Category":"Conveyors",
+        "Equipment":"Belt, 0.5 m wide",
+        "Unit":"length, m",
+        "S_lower":10.0,
+        "S_upper":500.0,
+        "a":41000,
+        "b":730,
+        "n":1.0
+    },
+    {
+        "Category":"Conveyors",
+        "Equipment":"Belt, 1.0 m wide",
+        "Unit":"length, m",
+        "S_lower":10.0,
+        "S_upper":500.0,
+        "a":46000,
+        "b":1320,
+        "n":1.0
+    },
+    {
+        "Category":"Conveyors",
+        "Equipment":"Bucket elevator, 0.5 m bucket",
+        "Unit":"height, m",
+        "S_lower":10.0,
+        "S_upper":30.0,
+        "a":17000,
+        "b":2600,
+        "n":1.0
+    },
+    {
+        "Category":"Crushers",
+        "Equipment":"Reversible hammer mill",
+        "Unit":"t/h",
+        "S_lower":30.0,
+        "S_upper":400.0,
+        "a":68400,
+        "b":730,
+        "n":1.0
+    },
+    {
+        "Category":"Crushers",
+        "Equipment":"Pulverizers",
+        "Unit":"kg/h",
+        "S_lower":200.0,
+        "S_upper":4000.0,
+        "a":16000,
+        "b":670,
+        "n":0.5
+    },
+    {
+        "Category":"Crushers",
+        "Equipment":"Jaw crusher",
+        "Unit":"t/h",
+        "S_lower":100.0,
+        "S_upper":600.0,
+        "a":-8000,
+        "b":62000,
+        "n":0.5
+    },
+    {
+        "Category":"Crushers",
+        "Equipment":"Gyratory crusher",
+        "Unit":"t/h",
+        "S_lower":200.0,
+        "S_upper":3000.0,
+        "a":5000,
+        "b":5100,
+        "n":0.7
+    },
+    {
+        "Category":"Crushers",
+        "Equipment":"Ball mill",
+        "Unit":"t/h",
+        "S_lower":0.7,
+        "S_upper":60.0,
+        "a":-23000,
+        "b":242000,
+        "n":0.4
+    },
+    {
+        "Category":"Crystallizers",
+        "Equipment":"Scraped surface crystallizer",
+        "Unit":"length, m",
+        "S_lower":7.0,
+        "S_upper":280.0,
+        "a":10000,
+        "b":13200,
+        "n":0.8
+    },
+    {
+        "Category": "Dryers",
+        "Equipment": "Direct contact rotary",
+        "Unit": "area, m2",
+        "S_lower": 11,
+        "S_upper": 180,
+        "a": 15000,
+        "b": 10500,
+        "n": 0.9
+     
+    },
+    {
+        "Category": "Dryers",
+        "Equipment": "Atmospheric tray batch",
+        "Unit": "area, m2",
+        "S_lower": 3.0,
+        "S_upper": 20,
+        "a": 10000,
+        "b": 7900,
+        "n": 0.5
+     
+    },
+    {
+        "Category": "Dryers",
+        "Equipment": "Spray dryer",
+        "Unit": "evap rate kg/h",
+        "S_lower": 400,
+        "S_upper": 4000,
+        "a": 410000,
+        "b": 2200,
+        "n": 0.7
+
+    },
+    {
+        "Category": "Evaporators",
+        "Equipment": "Vertical tube",
+        "Unit": "area, m2",
+        "S_lower": 11,
+        "S_upper": 640,
+        "a": 330,
+        "b": 36000,
+        "n": 0.55
+      
+    },
+    {
+        "Category": "Evaporators",
+        "Equipment": "Agitated Falling film",
+        "Unit": "area, m2",
+        "S_lower": 0.5,
+        "S_upper": 12,
+        "a": 88000,
+        "b": 65500,
+        "n": 0.75
+  
+    },
+    {
+        "Category": "Exchangers",
+        "Equipment": "U-tube shell and tube",
+        "Unit": "area, m2",
+        "S_lower": 10,
+        "S_upper": 1000,
+        "a": 28000,
+        "b": 54,
+        "n": 1.2
+       
+    },
+    {
+        "Category": "Exchangers",
+        "Equipment": "Floating head shell and tube",
+        "Unit": "area, m2",
+        "S_lower": 10,
+        "S_upper": 1000,
+        "a": 32000,
+        "b": 70,
+        "n": 1.2
+       
+    },
+    {
+        "Category": "Exchangers",
+        "Equipment": "Double pipe",
+        "Unit": "area, m2",
+        "S_lower": 1.0,
+        "S_upper": 80,
+        "a": 1900,
+        "b": 2500,
+        "n": 1.0
+        
+    },
+    {
+        "Category": "Exchangers",
+        "Equipment": "Thermosiphon reboiler",
+        "Unit": "area, m2",
+        "S_lower": 10,
+        "S_upper": 500,
+        "a": 30400,
+        "b": 122,
+        "n": 1.1
+ 
+    },
+    {
+        "Category": "Exchangers",
+        "Equipment": "U-tube Kettle reboiler",
+        "Unit": "area, m2",
+        "S_lower": 10,
+        "S_upper": 500,
+        "a": 29000,
+        "b": 400,
+        "n": 0.9
+      
+    },
+    {
+        "Category": "Exchangers",
+        "Equipment": "Plate and frame",
+        "Unit": "area, m2",
+        "S_lower": 1.0,
+        "S_upper": 500,
+        "a": 1600,
+        "b": 210,
+        "n": 0.95
+   
+    },
+    {
+        "Category": "Filters",
+        "Equipment": "Plate and frame",
+        "Unit": "capacity, m\u00b3",
+        "S_lower": 0.4,
+        "S_upper": 1.4,
+        "a": 128000,
+        "b": 89000,
+        "n": 0.5
+
+    },
+    {
+        "Category": "Filters",
+        "Equipment": "Vacuum drum",
+        "Unit": "area, m2",
+        "S_lower": 10,
+        "S_upper": 180,
+        "a": -73000,
+        "b": 93000,
+        "n": 0.3
+  
+    },
+    {
+        "Category": "Furnaces",
+        "Equipment": "Cylindrical",
+        "Unit": "duty, MW",
+        "S_lower": 0.2,
+        "S_upper": 60,
+        "a": 80000,
+        "b": 109000,
+        "n": 0.8
+ 
+    },
+    {
+        "Category": "Furnaces",
+        "Equipment": "Box",
+        "Unit": "duty, MW",
+        "S_lower": 30,
+        "S_upper": 120,
+        "a": 43000,
+        "b": 111000,
+        "n": 0.8
+    
+    },
+    {
+        "Category": "Packings",
+        "Equipment": "304 ss Raschig rings",
+        "Unit": "m3",
+        "S_lower": null,
+        "S_upper": null,
+        "a": 0,
+        "b": 8000,
+        "n": 1.0
+       
+    },
+    {
+        "Category": "Packings",
+        "Equipment": "Ceramic Intalox saddles",
+        "Unit": "m3",
+        "S_lower": null,
+        "S_upper": null,
+        "a": 0,
+        "b": 2000,
+        "n": 1.0
+       
+    },
+    {
+        "Category": "Packings",
+        "Equipment": "304 ss pall rings",
+        "Unit": "m3",
+        "S_lower": null,
+        "S_upper": null,
+        "a": 0,
+        "b": 8500,
+        "n": 1.0
+        
+    },
+    {
+        "Category": "Packings",
+        "Equipment": "PVC structured packing",
+        "Unit": "m3",
+        "S_lower": null,
+        "S_upper": null,
+        "a": 0,
+        "b": 5500,
+        "n": 1.0
+      
+    },
+    {
+        "Category": "Packings",
+        "Equipment": "304 ss structured packing",
+        "Unit": "m3",
+        "S_lower": null,
+        "S_upper": null,
+        "a": 0,
+        "b": 7600,
+        "n": 1.0
+    },
+
+    {
+        "Category": "Pressure vessels",
+        "Equipment": "Vertical, cs",
+        "Unit": "shell mass, kg",
+        "S_lower": 160,
+        "S_upper": 250000,
+        "a": 11600,
+        "b": 34,
+        "n": 0.85
+    },
+    {
+        "Category": "Pressure vessels",
+        "Equipment": "Horizontal, cs",
+        "Unit": "shell mass, kg",
+        "S_lower": 160,
+        "S_upper": 50000,
+        "a": 10200,
+        "b": 31,
+        "n": 0.85
+    },
+    {
+        "Category": "Pressure vessels",
+        "Equipment": "Vertical, 304 ss",
+        "Unit": "shell mass, kg",
+        "S_lower": 120,
+        "S_upper": 250000,
+        "a": 17400,
+        "b": 79,
+        "n": 0.85
+    },
+    {
+        "Category": "Pressure vessels",
+        "Equipment": "Horizontal, 304 ss",
+        "Unit": "shell mass, kg",
+        "S_lower": 120,
+        "S_upper": 50000,
+        "a": 12800,
+        "b": 73,
+        "n": 0.85
+    },
+    {
+        "Category": "Pumps and drivers",
+        "Equipment": "Single-stage centrifugal",
+        "Unit": "flow liters/s",
+        "S_lower": 0.2,
+        "S_upper": 126,
+        "a": 8000,
+        "b": 240,
+        "n": 0.9
+    },
+    {
+        "Category": "Pumps and drivers",
+        "Equipment": "Explosion proof motor",
+        "Unit": "power, kW",
+        "S_lower": 1.0,
+        "S_upper": 2500,
+        "a": -1100,
+        "b": 2100,
+        "n": 0.6
+    },
+    {
+        "Category": "Pumps and drivers",
+        "Equipment": "Condensing steam turbine",
+        "Unit": "power, kW",
+        "S_lower": 100,
+        "S_upper": 20000,
+        "a": -14000,
+        "b": 1900,
+        "n": 0.75
+    },
+    {
+        "Category": "Reactors",
+        "Equipment": "Jacketed, agitated",
+        "Unit": "volume, m3",
+        "S_lower": 0.5,
+        "S_upper": 100,
+        "a": 61500,
+        "b": 32500,
+        "n": 0.8
+    },
+    {
+        "Category": "Reactors",
+        "Equipment": "Jacketed, agitated, glass lined",
+        "Unit": "volume, m3",
+        "S_lower": 0.5,
+        "S_upper": 25,
+        "a": 12800,
+        "b": 88200,
+        "n": 0.4
+    },
+    {
+        "Category": "Tanks",
+        "Equipment": "Floating roof",
+        "Unit": "capacity, m3",
+        "S_lower": 100,
+        "S_upper": 10000,
+        "a": 113000,
+        "b": 3250,
+        "n": 0.65
+    },
+    {
+        "Category": "Tanks",
+        "Equipment": "Cone roof",
+        "Unit": "capacity, m3",
+        "S_lower": 10,
+        "S_upper": 4000,
+        "a": 5800,
+        "b": 1600,
+        "n": 0.7
+    },
+    {
+        "Category": "Trays",
+        "Equipment": "Sieve trays",
+        "Unit": "diameter, m",
+        "S_lower": 0.5,
+        "S_upper": 5.0,
+        "a": 130,
+        "b": 440,
+        "n": 1.8
+    },
+    {
+        "Category": "Trays",
+        "Equipment": "Valve trays",
+        "Unit": "diameter, m",
+        "S_lower": 0.5,
+        "S_upper": 5.0,
+        "a": 210,
+        "b": 400,
+        "n": 1.9
+    },
+    {
+        "Category": "Trays",
+        "Equipment": "Bubble cap trays",
+        "Unit": "diameter, m",
+        "S_lower": 0.5,
+        "S_upper": 5.0,
+        "a": 340,
+        "b": 640,
+        "n": 1.9
+    },
+    {
+        "Category": "Utilities",
+        "Equipment": "Cooling tower and pumps",
+        "Unit": "flow liters/s",
+        "S_lower": 100,
+        "S_upper": 10000,
+        "a": 170000,
+        "b": 1500,
+        "n": 0.9
+    },
+    {
+        "Category": "Utilities",
+        "Equipment": "Packaged mechanical refrigerator",
+        "Unit": "evaporator duty, kW",
+        "S_lower": 50,
+        "S_upper": 1500,
+        "a": 24000,
+        "b": 3500,
+        "n": 0.9
+    },
+    {
+        "Category": "Utilities",
+        "Equipment": "Water ion exchange plant",
+        "Unit": "flow m3/h",
+        "S_lower": 1,
+        "S_upper": 50,
+        "a": 14000,
+        "b": 6200,
+        "n": 0.75
+    }
+
+]

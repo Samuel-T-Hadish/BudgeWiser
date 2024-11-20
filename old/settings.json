@@ -1,0 +1,27 @@
+{
+  "percentages": {
+    "direct": {
+      "piping_percent": 50,
+      "instrumentation_percent": 40,
+      "electrical_percent": 20,
+      "structural_percent": 0,
+      "others_percent": 10,
+      "operational_spares_percent": 2, 
+      "installation_percent": 30,
+      "construction_percent": 20,
+      "commissioning_percent": 2
+    },
+    "contractor_indirects": {
+      "detailed_engineering_percent": 10,
+      "freight_percent": 7,
+      "tpia_percent": 2,
+      "supervision_percent": 10
+    },
+    "client_indirects": {
+      "prefeed_feed_percent": 2.5,
+      "pmc_pmt_percent": 7,
+      "insurance_percent": 1
+    },
+    "contingency_percent": 10
+  }
+}
